@@ -3,7 +3,7 @@
 #We can use the 'dot format' method to control exactly how our output appears.
 #If you enter text when a number is expected, the program will crash 
 #(unless you implement code to handle the error correctly)
-
+ 
 # get input
 
 # ask user for name
