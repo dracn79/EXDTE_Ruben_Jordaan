@@ -3,7 +3,7 @@
 #We can use the 'dot format' method to control exactly how our output appears.
 #If you enter text when a number is expected, the program will crash 
 #(unless you implement code to handle the error correctly)
- 
+
 # get input
 
 # ask user for name
@@ -32,8 +32,12 @@ num_2 = int(input("What is your second favourite number?"))
 add = num_1 + num_2
 
 # multiply numbers together
+mult = num_1 * num_2
 
 # greet user and display math
 print("Hello", name)
 
 print("{} + {} = {}".format(num_1, num_2, add))
+print("{} * {} = {}".format(num_1, num_2, mult))
+
+print(f'{num_1} * {num_2} = {mult}')
